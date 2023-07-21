@@ -6,22 +6,22 @@ using Attribute = HotQueen.Combat.Attribute;
 
 namespace HotQueen.Combat.Hability
 {
-    public struct HabilityData
+    public struct AbilityData
     {
         public string Name;
         public string ID_Name;
         public string Description;
         public Attribute Cost;
-        public Attribute Damage;
+        public Attribute Effect;
         public event Action Function;
 
-        public HabilityData(string name, string iD_Name, string description, Attribute cost, Attribute damage, Action function)
+        public AbilityData(string name, string iD_Name, string description, Attribute cost, Attribute damage, Action function)
         {
             Name = name;
             ID_Name = iD_Name;
             Description = description;
             Cost = cost;
-            Damage = damage;
+            Effect = damage;
             this.Function = function;
         }
 

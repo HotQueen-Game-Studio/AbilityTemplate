@@ -5,13 +5,13 @@ using UnityEngine;
 using UnityEngine.Events;
 using HotQueen.Combat;
 
-public class Damageble_Base : MonoBehaviour, IDamageble
+public class Damageble_Base : MonoBehaviour, IAffectable
 {
-    public event Action<CombatArgs> OnDamaged;
+    public event Action<AbilityUsageArgs> OnAffected;
 
-    public void Damage(CombatArgs args)
+    public void Affect(AbilityUsageArgs args)
     {
-        Debug.Log("Damage:" + args.Attack.Damage.ToString());
-        Debug.Log("Cost:" + args.Attack.Cost.ToString());
+        Debug.Log("Damage:" + args.Ability.Effect.ToString());
+        Debug.Log("Cost:" + args.Ability.Cost.ToString());
     }
 }

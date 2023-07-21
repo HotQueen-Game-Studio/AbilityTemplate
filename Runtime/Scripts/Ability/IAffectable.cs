@@ -6,9 +6,9 @@ using UnityEngine.Events;
 
 namespace HotQueen.Combat
 {
-    public interface IDamageble
+    public interface IAffectable
     {
-        public event Action<CombatArgs> OnDamaged;
-        public void Damage(CombatArgs args);
+        public event Action<AbilityUsageArgs> OnAffected;
+        public void Affect(AbilityUsageArgs args);
     }
 }

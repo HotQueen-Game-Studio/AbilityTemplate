@@ -13,15 +13,8 @@ public class CombatDemo : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            HabilityData dataA = new HabilityData(
-                name: "PunchAttack",
-                iD_Name: "Attack_PunchAttack",
-                description: "Simple attack",
-                cost: new Attribute(0, 1, 0),
-                damage: new Attribute(1, 0, 0),
-                function: () => { Debug.Log("HA!!"); }
-            );
-            attacker.Attack(new CombatArgs(attacker, damageble, dataA));
+         
+            attacker.UseHability(new AbilityUsageArgs(attacker, damageble, AbilityRegistry.FindHability("Attack_Punch")));
         }
     }
 }

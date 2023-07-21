@@ -5,15 +5,15 @@ using UnityEngine;
 using HotQueen.Combat;
 
 
-public class Attacker_Base : MonoBehaviour, IAttacker
+public class Attacker_Base : MonoBehaviour, IAbilityUser
 {
-    public event Action<CombatArgs> OnAttack;
+    public event Action<AbilityUsageArgs> OnUseAbility;
 
-    public void Attack(CombatArgs args)
+    public void UseHability(AbilityUsageArgs args)
     {
-        OnAttack?.Invoke(args);
-        args.Target.Damage(args);
-        args.Attack.Execute();
+        OnUseAbility?.Invoke(args);
+        args.Affected.Affect(args);
+        args.Ability.Execute();
     }
 }
 
