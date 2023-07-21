@@ -11,19 +11,11 @@ namespace HotQueen.Combat
         public int stamina;
         public int ki;
 
-        [Header("Limit")]
-        public int maxHealth;
-        public int maxStamina;
-        public int maxKi;
-
-        public Attribute(int health, int stamina, int ki, int maxHealth, int maxStamina, int maxKi)
+        public Attribute(int health, int stamina, int ki)
         {
             this.health = health;
             this.stamina = stamina;
             this.ki = ki;
-            this.maxHealth = maxHealth;
-            this.maxStamina = maxStamina;
-            this.maxKi = maxKi;
         }
     }
 }
