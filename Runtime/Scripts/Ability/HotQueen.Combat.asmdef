@@ -1,6 +1,6 @@
 {
-    "name": "HotQueen.Combat",
-    "rootNamespace": "HotQueen.Combat",
+    "name": "HotQueen.Ability",
+    "rootNamespace": "HotQueen.Ability",
     "references": [
         "GUID:977e97d8a32bf3648952eb70d0c7bcb0"
     ],
