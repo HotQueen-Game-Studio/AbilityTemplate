@@ -2,9 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Attribute = HotQueen.Combat.Attribute;
+using Attribute = HotQueen.Hability.Attribute;
 
-namespace HotQueen.Combat.Hability
+namespace HotQueen.Hability
 {
     public struct AbilityData
     {

@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using HotQueen.Combat.Hability;
+using HotQueen.Hability;
 
-namespace HotQueen.Combat
+namespace HotQueen.Hability
 {
     public struct AbilityUsageArgs
     {

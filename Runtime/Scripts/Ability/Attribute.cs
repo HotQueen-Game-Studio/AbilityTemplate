@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace HotQueen.Combat
+namespace HotQueen.Hability
 {
     public struct Attribute
     {

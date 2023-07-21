@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 using UnityEngine.Events;
 
-namespace HotQueen.Combat
+namespace HotQueen.Hability
 {
     public interface IAffectable
     {

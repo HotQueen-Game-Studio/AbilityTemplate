@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-namespace HotQueen.Combat
+namespace HotQueen.Hability
 {
     public interface IAbilityUser
     {
