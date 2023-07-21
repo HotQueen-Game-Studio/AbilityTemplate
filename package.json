@@ -1,0 +1,22 @@
+{
+    "name": "com.hotqueen.abilitytemplate",
+    "version": "1.0.0",
+    "displayName": "ability template",
+    "description": "With this package you can speed up the process of creating a ability system to your game",
+    "unity": "2021.3",
+    "unityRelease": "25f1",
+    "dependencies": {},
+    "keywords": [],
+    "author": {
+        "name": "Logout",
+        "email": "matheus.bertos2@gmail.com",
+        "url": ""
+    },
+    "samples": [
+        {
+            "displayName": "Demo",
+            "description": "Contains example of how this package works",
+            "path": "Samples~/Demo"
+        }
+    ]
+}
