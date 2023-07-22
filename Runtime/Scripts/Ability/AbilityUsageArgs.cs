@@ -5,6 +5,7 @@ using HotQueen.Hability;
 
 namespace HotQueen.Hability
 {
+    [System.Serializable]
     public struct AbilityUsageArgs
     {
         public IAbilityUser User;

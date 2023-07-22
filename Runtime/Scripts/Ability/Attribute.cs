@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace HotQueen.Hability
 {
+    [System.Serializable]
     public struct Attribute
     {
         [Header("Attributes")]
@@ -16,6 +17,15 @@ namespace HotQueen.Hability
             this.health = health;
             this.stamina = stamina;
             this.ki = ki;
+        }
+
+        public Attribute Sum(Attribute attribute)
+        {
+            Attribute sum = new Attribute(0, 0, 0);
+            sum.health = this.health + attribute.health;
+            sum.stamina = this.stamina + attribute.stamina;
+            sum.ki = this.ki + attribute.ki;
+            return sum;
         }
     }
 }

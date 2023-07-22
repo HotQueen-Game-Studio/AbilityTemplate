@@ -6,6 +6,7 @@ using Attribute = HotQueen.Hability.Attribute;
 
 namespace HotQueen.Hability
 {
+    [System.Serializable]
     public struct AbilityData
     {
         public string Name;
