@@ -1,7 +1,7 @@
 {
     "name": "com.hotqueen.abilitytemplate",
     "version": "1.0.3",
-    "displayName": "ability template",
+    "displayName": "Ability Template",
     "description": "With this package you can speed up the process of creating a ability system to your game",
     "unity": "2021.3",
     "unityRelease": "25f1",
